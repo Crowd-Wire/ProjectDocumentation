@@ -9,8 +9,8 @@ This repository aims to describe the Project Planning, Architecture and Document
     - [Problem](#problem)
     - [Goals](#goals)
     - [Tasks](#tasks)
-  - [Expected Results](#expected-results)
-  - [Related Work](#related-work)
+    - [Expected Results](#expected-results)
+    - [Related Work](#related-work)
     - [Calendar](#calendar)
       - [1st Milestone](#1st-milestone)
       - [2nd Milestone](#2nd-milestone)
@@ -69,7 +69,7 @@ Module World-Editor (Leandro Silva, Pedro Tavares)
 
 
 
-## Expected Results
+### Expected Results
 
 In the final result, we expect to have a fully functional web  application capable of performing video and voice calls that may be used in many different ways, providing to the end users other kind of  interaction with each other.
 
@@ -79,7 +79,7 @@ Finally, this platform should  be scalable enough to host video-conferences with
 
 
 
-## Related Work
+### Related Work
 
 The following system is really interesting and inspiring in the context of our project:
 

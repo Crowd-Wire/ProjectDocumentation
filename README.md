@@ -6,24 +6,17 @@ This repository aims to describe the Project Planning, Architecture and Document
 - [CrowdWire - Massive Online Meetings](#crowdwire---massive-online-meetings)
   - [Inception Phase](#inception-phase)
     - [Context](#context)
-  - [](#)
     - [Problem](#problem)
-  - [](#-1)
     - [Goals](#goals)
-  - [](#-2)
     - [Tasks](#tasks)
-  - [](#-3)
   - [Expected Results](#expected-results)
-  - [](#-4)
   - [Related Work](#related-work)
-  - [](#-5)
     - [Calendar](#calendar)
       - [1st Milestone](#1st-milestone)
       - [2nd Milestone](#2nd-milestone)
       - [3rd Milestone](#3rd-milestone)
       - [4th Milestone](#4th-milestone)
     - [Communication](#communication)
-  - [](#-6)
     - [Team Roles](#team-roles)
 ## Inception Phase
 
@@ -31,19 +24,15 @@ This repository aims to describe the Project Planning, Architecture and Document
 
 With the emergence of Covid-19 all around the World, many people,  companies and organizations started adopting remote procedures like  video-conferences to continue doing the commons tasks they used to do  "in person". Therefore, the search and use of these types of systems  that allow video and voice calls has increased a lot.
 
-## 
 
 ### Problem
 
 Most of the current video communication systems are limited in the  sense that they do not provide a remote interactive environment, side  conversations, nor visualization that mimics real life behaviours. To  solve this issue we want to incorporate, as much as possible, this  component which is one of the most rewarding thing in real life  meetings. Besides this, the ones that do, are not open source projects.
 
-## 
-
 ### Goals
 
 With this work, we aim to provide an interactive way of doing virtual meetings, online conferences and classes, capable of scaling up to a   number of active users, that should be close enough to host conferences. Also, we want to simulate a real-life communication experience by taking into consideration users' proximity. In order to do so, we are looking forward to develop a web application  with a game-like interface that allows to create and customize  environments and invite other users. As a solution to part of the problem, we intend to do a open-source  project, so that people are able to use and contribute to it.
 
-## 
 
 ### Tasks
 
@@ -78,7 +67,7 @@ Module World-Editor (Leandro Silva, Pedro Tavares)
 - Task 1: Provide the user with a map editor and material to create and edit its personal world (Leandro Silva, Pedro Tavares)
 - Task 2: Allow users to upload sprites to their editor (Leandro Silva)
 
-## 
+
 
 ## Expected Results
 
@@ -88,7 +77,7 @@ The end application should allow the user to create and edit their  own worlds a
 
 Finally, this platform should  be scalable enough to host video-conferences with dimensions of an event like Students@Deti.
 
-## 
+
 
 ## Related Work
 
@@ -97,7 +86,7 @@ The following system is really interesting and inspiring in the context of our p
 - [**Gather.town**](https://gather.town/)
 - [**DogeHouse**](https://dogehouse.tv/)
 
-## 
+
 
 ### Calendar
 
@@ -146,7 +135,7 @@ Backlog Management: For backlog management we decided to use Jira  since it is a
 
 Team Communication: For intra-team communication we are using  Discord, since every member is familiarized with the tool and, we have  integrated it with Jira and GitHub for continuous updates on our  repository.
 
-## 
+
 
 ### Team Roles
 

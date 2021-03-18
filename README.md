@@ -1,9 +1,30 @@
+
 # CrowdWire - Massive Online Meetings
 
 This repository aims to describe the Project Planning, Architecture and Documentation for the CrowdWire Project.
 
-[TOC]
-
+- [CrowdWire - Massive Online Meetings](#crowdwire---massive-online-meetings)
+  - [Inception Phase](#inception-phase)
+    - [Context](#context)
+  - [](#)
+    - [Problem](#problem)
+  - [](#-1)
+    - [Goals](#goals)
+  - [](#-2)
+    - [Tasks](#tasks)
+  - [](#-3)
+  - [Expected Results](#expected-results)
+  - [](#-4)
+  - [Related Work](#related-work)
+  - [](#-5)
+    - [Calendar](#calendar)
+      - [1st Milestone](#1st-milestone)
+      - [2nd Milestone](#2nd-milestone)
+      - [3rd Milestone](#3rd-milestone)
+      - [4th Milestone](#4th-milestone)
+    - [Communication](#communication)
+  - [](#-6)
+    - [Team Roles](#team-roles)
 ## Inception Phase
 
 ### Context
@@ -95,7 +116,7 @@ The following system is really interesting and inspiring in the context of our p
 - Backend Structure and databases
 - User Interface
 
-### 3rd Milestone
+#### 3rd Milestone
 
 - World-Editor
 - Full Integration of each micro-service
@@ -103,13 +124,12 @@ The following system is really interesting and inspiring in the context of our p
 - CI/CD
 - File Exchange feature
 
-### 4th Milestone
+#### 4th Milestone
 
 - Map and User Permissions well integrated
 - Stress Testing to all features
 - Integrate additional features
 
-## 
 
 ### Communication
 

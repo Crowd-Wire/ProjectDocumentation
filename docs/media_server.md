@@ -1,16 +1,14 @@
-# Media Server
+## Data Structures
 
-## Commands
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Operations
 
-## Project layout
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## How to run locally:
 
+Execute inside the `media_server/` directory:
+- `npm i`
+- `npm run build`
+- `npm start`
+
+Edit the `src/config.js` file according to your needs and create an `.env` file accordingly to the `.env.example`.

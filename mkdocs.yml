@@ -14,8 +14,11 @@ theme:
     - navigation.instant
     - navigation.top
 
+plugins:
+  - render_swagger
+
 extra:
-  social:
+   social:
     - icon: fontawesome/brands/github
       link: https://github.com/Crowd-Wire
       name: CrowdWire Repository

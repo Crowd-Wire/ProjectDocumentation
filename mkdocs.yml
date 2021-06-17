@@ -1,13 +1,21 @@
 site_name: CrowdWire Documentation
-site_url: https://crowd-wire.github.io/ProjectDocumentation/
+site_url: http://atnog-crowdwire1.av.it.pt/
+repo_url: https://github.com/Crowd-Wire
+repo_name: CrowdWire Organization
 
 theme:
    name: material
    favicon: assets/favicon.ico
    logo: assets/logo.png
-   scheme: slate
-   palette: light blue
+   palette:
+      primary: light blue
+      accent: light blue
    features:
     - navigation.instant
     - navigation.top
-   
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Crowd-Wire
+      name: CrowdWire Repository

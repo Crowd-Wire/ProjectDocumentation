@@ -1,4 +1,13 @@
 site_name: CrowdWire Documentation
-site_url: https://atnog-crowdwire1.av.it.pt/
-theme: readthedocs
+site_url: https://crowd-wire.github.io/ProjectDocumentation/
 
+theme:
+   name: material
+   favicon: assets/favicon.ico
+   logo: assets/logo.png
+   scheme: slate
+   palette: light blue
+   features:
+    - navigation.instant
+    - navigation.top
+   

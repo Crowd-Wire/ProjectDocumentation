@@ -1,4 +1,4 @@
-# Welcome to MkDocs
+# Media Server
 
 ## Commands
 

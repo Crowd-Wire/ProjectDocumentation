@@ -1,7 +1,7 @@
 site_name: CrowdWire Documentation
 site_url: http://atnog-crowdwire1.av.it.pt/
-repo_url: https://github.com/Crowd-Wire
-repo_name: CrowdWire Organization
+repo_url: https://github.com/Crowd-Wire/ProjectDocumentation
+repo_name: CrowdWire Documentation
 
 theme:
    name: material

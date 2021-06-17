@@ -1,14 +1,15 @@
-# DB
+# API
+## DB
 modelation
 
-# Endpoints
+## Endpoints
 swagger
 
-# redis
+## redis
 falar por alto, copiar do relatorio
 
-# websocket
+## websocket
 mostrar endpoints
 
-# rabbitmq
+## rabbitmq
 mostrar topicos

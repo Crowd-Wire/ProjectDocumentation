@@ -9,21 +9,21 @@
       
       
       
-        <link rel="canonical" href="http://atnog-crowdwire1.av.it.pt/">
+        <link rel="canonical" href="http://atnog-crowdwire1.av.it.pt/architecture/">
       
-      <link rel="icon" href="assets/favicon.ico">
+      <link rel="icon" href="../assets/favicon.ico">
       <meta name="generator" content="mkdocs-1.2.1, mkdocs-material-7.1.8">
     
     
       
-        <title>CrowdWire Documentation</title>
+        <title>Architecture - CrowdWire Documentation</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.ca7ac06f.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.ca7ac06f.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.f1a3b89f.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.f1a3b89f.min.css">
         
           
           
@@ -59,7 +59,7 @@
     <body dir="ltr" data-md-color-scheme="" data-md-color-primary="light-blue" data-md-color-accent="light-blue">
   
     
-    <script>function __prefix(e){return new URL(".",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    <script>function __prefix(e){return new URL("..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -67,7 +67,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#welcome-to-crowdwire" class="md-skip">
+        <a href="#high-level-architecture" class="md-skip">
           Skip to content
         </a>
       
@@ -78,9 +78,9 @@
     
       <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="CrowdWire Documentation" class="md-header__button md-logo" aria-label="CrowdWire Documentation" data-md-component="logo">
+    <a href=".." title="CrowdWire Documentation" class="md-header__button md-logo" aria-label="CrowdWire Documentation" data-md-component="logo">
       
-  <img src="assets/logo.png" alt="logo">
+  <img src="../assets/logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -96,7 +96,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Welcome to CrowdWire
+              Architecture
             
           </span>
         </div>
@@ -140,9 +140,9 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="CrowdWire Documentation" class="md-nav__button md-logo" aria-label="CrowdWire Documentation" data-md-component="logo">
+    <a href=".." title="CrowdWire Documentation" class="md-nav__button md-logo" aria-label="CrowdWire Documentation" data-md-component="logo">
       
-  <img src="assets/logo.png" alt="logo">
+  <img src="../assets/logo.png" alt="logo">
 
     </a>
     CrowdWire Documentation
@@ -169,6 +169,36 @@
 
   
   
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Welcome to CrowdWire
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../API/" class="md-nav__link">
+        API
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
     
   
   
@@ -177,24 +207,20 @@
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
       
-        
-      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Welcome to CrowdWire
+          Architecture
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <a href="." class="md-nav__link md-nav__link--active">
-        Welcome to CrowdWire
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Architecture
       </a>
       
         
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
-  
-    
   
   
     <label class="md-nav__title" for="__toc">
@@ -204,15 +230,22 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#project-overview" class="md-nav__link">
-    Project Overview
+  <a href="#high-level-architecture" class="md-nav__link">
+    High Level Architecture
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#project-organization" class="md-nav__link">
-    Project organization
+  <a href="#system-technology-architecture" class="md-nav__link">
+    System Technology Architecture
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deployment-diagram" class="md-nav__link">
+    Deployment Diagram
   </a>
   
 </li>
@@ -233,37 +266,7 @@
   
   
     <li class="md-nav__item">
-      <a href="API/" class="md-nav__link">
-        API
-      </a>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="architecture/" class="md-nav__link">
-        Architecture
-      </a>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="deployment/" class="md-nav__link">
+      <a href="../deployment/" class="md-nav__link">
         Deployment
       </a>
     </li>
@@ -278,7 +281,7 @@
   
   
     <li class="md-nav__item">
-      <a href="frontend/" class="md-nav__link">
+      <a href="../frontend/" class="md-nav__link">
         Frontend
       </a>
     </li>
@@ -293,7 +296,7 @@
   
   
     <li class="md-nav__item">
-      <a href="media_server/" class="md-nav__link">
+      <a href="../media_server/" class="md-nav__link">
         Media Server
       </a>
     </li>
@@ -316,8 +319,6 @@
   
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -326,15 +327,22 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#project-overview" class="md-nav__link">
-    Project Overview
+  <a href="#high-level-architecture" class="md-nav__link">
+    High Level Architecture
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#project-organization" class="md-nav__link">
-    Project organization
+  <a href="#system-technology-architecture" class="md-nav__link">
+    System Technology Architecture
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deployment-diagram" class="md-nav__link">
+    Deployment Diagram
   </a>
   
 </li>
@@ -351,28 +359,19 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/Crowd-Wire/ProjectDocumentation/edit/master/docs/index.md" title="Edit this page" class="md-content__button md-icon">
+                  <a href="https://github.com/Crowd-Wire/ProjectDocumentation/edit/master/docs/architecture.md" title="Edit this page" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
                 
-                <h1 id="welcome-to-crowdwire">Welcome to CrowdWire</h1>
-<h2 id="project-overview">Project Overview</h2>
-<p>CrowdWire is an open-source application that welcomes anybody that wants to contribute to our goals.
-This repository aims to describe the Project Planning, Architecture and Documentation for the CrowdWire Project.</p>
-<p>Here's the context and motivation for the application:</p>
-<blockquote>
-<p>With the emergence of Covid-19 all around the World, many people, companies and organizations started adopting remote procedures like video-conferences to continue doing the commons tasks they used to do "in person". Therefore, the search and use of these types of systems that allow video and voice calls has increased a lot. Most of the current video communication systems are limited in the sense that they do not provide a remote interactive environment, side conversations, nor visualization that mimics real life behaviours. To solve this issue we want to incorporate, as much as possible, this component which is one of the most rewarding thing in real life meetings. Besides this, the ones that do, are not open source projects.</p>
-</blockquote>
-<p>The repository of CrowdWire's source code can be found at: <a href="https://github.com/Crowd-Wire/CrowdWire">CrowdWire</a>.</p>
-<h2 id="project-organization">Project organization</h2>
-<pre><code>.github/workflows    # The CI pipelines with github Actions.
-api/                 # The backend Rest API with FastAPI.
-frontend/            # The project website with ReactJS.
-k8s/                 # The configuration files for deployment with Kubernets.
-media_server/        # The media server for communications with Mediasoup.
-README.md            # The project description and team information.
-</code></pre>
+                  <h1>Architecture</h1>
+                
+                <h2 id="high-level-architecture">High Level Architecture</h2>
+<p><img alt="High_Level_Architecture" src="../assets/Images/Architecture%20Diagrams/High_Level_Architecture.png" /></p>
+<h2 id="system-technology-architecture">System Technology Architecture</h2>
+<p><img alt="System_Technology_Architecture" src="../assets/Images/Architecture%20Diagrams/System_Technology_Architecture.png" /></p>
+<h2 id="deployment-diagram">Deployment Diagram</h2>
+<p><img alt="Deployment_Diagram" src="../assets/Images/Architecture%20Diagrams/Deployment_Diagram.png" /></p>
                 
               
               
@@ -395,15 +394,30 @@ README.md            # The project description and team information.
   
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
+        
+        <a href="../API/" class="md-footer__link md-footer__link--prev" aria-label="Previous: API" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              API
+            </div>
+          </div>
+        </a>
+      
       
         
-        <a href="API/" class="md-footer__link md-footer__link--next" aria-label="Next: API" rel="next">
+        <a href="../deployment/" class="md-footer__link md-footer__link--next" aria-label="Next: Deployment" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              API
+              Deployment
             </div>
           </div>
           <div class="md-footer__button md-icon">
@@ -442,10 +456,10 @@ README.md            # The project description and team information.
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.instant", "navigation.top"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "assets/javascripts/workers/search.b0710199.min.js", "version": null}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.top"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../assets/javascripts/workers/search.b0710199.min.js", "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.76f349be.min.js"></script>
+      <script src="../assets/javascripts/bundle.76f349be.min.js"></script>
       
     
   </body>

@@ -1,12 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://crowd-wire.github.io/ProjectDocumentation/</loc>
+         <loc>http://atnog-crowdwire1.av.it.pt/</loc>
          <lastmod>2021-06-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://crowd-wire.github.io/ProjectDocumentation/media_server/</loc>
+         <loc>http://atnog-crowdwire1.av.it.pt/API/</loc>
+         <lastmod>2021-06-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://atnog-crowdwire1.av.it.pt/architecture/</loc>
+         <lastmod>2021-06-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://atnog-crowdwire1.av.it.pt/deployment/</loc>
+         <lastmod>2021-06-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://atnog-crowdwire1.av.it.pt/frontend/</loc>
+         <lastmod>2021-06-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://atnog-crowdwire1.av.it.pt/media_server/</loc>
          <lastmod>2021-06-17</lastmod>
          <changefreq>daily</changefreq>
     </url>

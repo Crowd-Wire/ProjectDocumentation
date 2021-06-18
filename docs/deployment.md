@@ -1,6 +1,9 @@
-## CI Pipeline
-falar um coto do workflow
+## CI/CD Pipeline
+Our pipelines are present on the folder `.workflows`, in which:
 
+- The Python Linter, Flake8, inspects the REST API through the file `python-lint.yml`
+- The REST API tests are run on the file `testing.yml`. Both this workflow and the workflow `python-lint.yml`,  are ran in each Pull Request
+- Every Pull Request to the master branch proceeds to do the continuous Delivery pipeline, `docker-pipeline.yml`which builds the docker images for the frontend, backend and the mediaserver.  After each build is sucessfull, the images are pushed to a registry on DockerHub.
 
 ## Kubernetes Metrics Server
 
@@ -111,4 +114,44 @@ $ helm install nfs-subdir-external-provisioner nfs-subdir-external-provisioner/n
     --set nfs.server=x.x.x.x \
     --set nfs.path=/exported/path
 ```
+
+## Run our Helm Charts
+
+To manage the packaging of  the Kubernetes resources, we are using  [Helm]( https://helm.sh/). If you want to make use of our charts locally, do the following steps. Before installing this chart please check the previous deployment notes.
+
+```
+$cd charts
+
+$helm dep build
+
+$helm install crowdwire  .
+```
+
+To observe the initialization of all Pods, use the following command:
+
+```
+kubectl get all -o wide 
+```
+
+This is the structure of our Charts: An Umbrella Chart containing all our microservices, as subcharts. 
+
+```
+├── Chart.lock
+├── Chart.yaml
+├── subcharts
+│   ├── api
+│   ├── frontend
+|	├── mediaserver
+│   ├── postgresql
+│   ├── rabbitmq
+│   └── redis
+├── templates
+│   ├── _helpers.tpl
+│   └── ingress.yaml
+└── values.yaml
+```
+
+ 
+
+Important to refer that the `rabbitmq`, `postgresql` and `redis` charts belong to [Bitnami](https://github.com/bitnami) .
 

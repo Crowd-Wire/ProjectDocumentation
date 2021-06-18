@@ -1,7 +1,9 @@
-## DB
-modelation
+## DB Modelation
+To model our database we used the following diagram:
 
-## Endpoints
+
+
+## ![Relational_Schema](./assets/Images/Database Modelation/Relational_Schema.png)Endpoints
 !!swagger-http https://atnog-crowdwire1.av.it.pt/api/v1/openapi.json!!
 
 ## redis

@@ -15,7 +15,7 @@ For the Data Structures, we store the rooms associated with the media server, an
 
 A state has [Transports](https://mediasoup.org/documentation/v3/mediasoup/api/#Transport) associated as well as a map [Producers](https://mediasoup.org/documentation/v3/mediasoup/api/#Producer) for each type (video and audio) and a list of [Consumers](https://mediasoup.org/documentation/v3/mediasoup/api/#Consumer) of those Producers.
 
-![image](C:\Program Files\Typora\assets\Images\my_peer.png)
+![image](assets/Images/my_peer.png)
 
 
 

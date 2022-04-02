@@ -3,6 +3,8 @@
 
 This repository aims to describe the Project Planning, Architecture and Documentation for the CrowdWire Project.
 
+Documentation: https://crowd-wire.github.io/ProjectDocumentation/
+
 - [CrowdWire - Massive Online Meetings](#crowdwire---massive-online-meetings)
   - [Inception Phase](#inception-phase)
     - [Context](#context)
